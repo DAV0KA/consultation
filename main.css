@@ -5,9 +5,11 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     overflow-x: hidden;
 }
+
 a {
     text-decoration: none;
 }
@@ -74,22 +76,26 @@ p {
     font-size: 22px;
     margin: auto 30px;
 }
-.footer_p1{
+
+.footer_p1 {
     color: black;
     font-family: "Inter", serif;
     font-weight: 400;
     font-size: 18px;
     margin-top: 10px;
 }
-.footer_p{
+
+.footer_p {
     color: black;
     font-family: "Roboto Condensed", serif;
     font-weight: 700;
     font-size: 28px;
 }
-.contakt a{
+
+.contakt a {
     margin: 10px;
 }
+
 .work {
     width: 407px;
     height: 161px;
@@ -161,11 +167,12 @@ p {
     object-fit: cover;
 }
 
-.courses2{
+.courses2 {
     display: flex;
     flex-direction: column;
 }
-.courses2 p{
+
+.courses2 p {
     color: black;
     font-family: "Roboto Condensed", serif;
     font-weight: 700;
@@ -180,6 +187,10 @@ p {
 
     }
 
+    .courses_display {
+        justify-content: space-between;
+    }
+
     .work {
         width: 100%;
     }
@@ -187,7 +198,8 @@ p {
     p {
         font-size: 33px;
     }
-    .courses{
+
+    .courses {
         width: 45%;
         height: 354px;
         border-radius: 24px;
