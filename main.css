@@ -234,6 +234,10 @@ p {
     font-size: 18px;
     margin: 16px 40px 60px 40px;
 }
+.modal-btn{
+    width: 50px;
+    height: 50px;
+}
 
 @media (max-width: 1000px) {
     .work_display {
